@@ -5,7 +5,9 @@
   "version": "3.2.1",
   "type": "module",
   "scripts": {
-    "deploy": "npm run build && npx gh-pages -d dist",
+    "deploy": "npm run prepare-deploy && npx gh-pages -d dist",
+    "prepare-deploy": "npm run build && npm run fix-paths",
+    "fix-paths": "sed -i '' -e 's#/auction-website/##g' dist/index.html && sed -i '' -e 's#/auction-website/##g' dist/assets/*.css && sed -i '' -e 's#/auction-website/##g' dist/assets/*.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --report-unused-disable-directives --max-warnings 0",
