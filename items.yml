@@ -1,0 +1,25 @@
+- id: 1
+  name: "Vintage Camera"
+  description: |
+    กล้องฟิล์มรุ่นคลาสสิกจากปี 1960
+    สภาพดี ใกล้จะทำงานได้เต็มที่
+  startingPrice: 1500
+  currency: "THB"
+  endTime: "2026-07-01T12:00:00Z"
+  imageUrl: "/assets/camera.jpg"
+
+- id: 2
+  name: "Hand‑crafted Wooden Chair"
+  description: "เก้าอี้ไม้ทำมือจากช่างฝีมือไทย"
+  startingPrice: 2500
+  currency: "THB"
+  endTime: "2026-07-05T18:00:00Z"
+  imageUrl: "/assets/chair.jpg"
+
+- id: 3
+  name: "Antique Pocket Watch"
+  description: "นาฬิกาข้อมือโบราณจากศตวรรษที่ 19"
+  startingPrice: 3500
+  currency: "THB"
+  endTime: "2026-07-10T15:00:00Z"
+  imageUrl: "/assets/watch.jpg"
