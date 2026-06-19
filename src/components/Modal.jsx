@@ -201,7 +201,7 @@ const SignUpModal = () => {
   };
 
   return (
-    <Modal type={ModalTypes.SIGN_UP} title="Sign up for Markatplace Auction">
+    <Modal type={ModalTypes.SIGN_UP} title="Sign up for WV Marketplace Auction">
       <div className="modal-body">
         <p>
           We use anonymous authentication provided by Google. Your account is
